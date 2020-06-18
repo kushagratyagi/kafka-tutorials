@@ -22,7 +22,7 @@ public class ConsumerWithThreadDemo {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            LOGGER.info("Application exited");
+            LOGGER.info("task=addShutdownHook, message=Application exited");
         }));
 
         try {
@@ -30,7 +30,7 @@ public class ConsumerWithThreadDemo {
         } catch (InterruptedException e) {
             LOGGER.error("InterruptedException");
         } finally {
-            LOGGER.info("Application stopping");
+            LOGGER.info("task=main, message=Application stopping");
         }
     }
 }
