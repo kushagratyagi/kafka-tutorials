@@ -1,8 +1,9 @@
-package com.abeek.kafka.tutorial;
+package com.abeek.kafka.tutorials.tutorial1;
 
-import com.abeek.kafka.tutorial.tasks.ConsumerThread;
+import com.abeek.kafka.tutorials.tutorial1.tasks.ConsumerThread;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import java.util.concurrent.CountDownLatch;
 
 public class ConsumerWithThreadDemo {
